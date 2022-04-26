@@ -1,0 +1,33 @@
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+.content {
+  font-size: 15px;
+  color: #4d4d4d;
+  background-color: white;
+}
+
+.title {
+  text-transform: uppercase;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title span {
+  color: #18c9c9;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#header .img-content .img-container {
+  width: 2.5rem;
+}
+/*# sourceMappingURL=style(scss).css.map */

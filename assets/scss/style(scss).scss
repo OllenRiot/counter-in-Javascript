@@ -1,0 +1,61 @@
+//SCSS GENERAL PARAMETERS//
+
+//Colors//
+$main-color:#2ee6e6;
+$complementary-color: #E62E2E;
+$title-color:darken($main-color,10%);
+$subtitle-color:lighten($main-color,10%);
+$main-font-color:lighten(black,30%);
+$title-font-color:black;
+$border-menu-color:#e5e5e5;
+$subtitle-font-color:darken($main-font-color,5%);
+$colored-section-background:darken($main-color,20%);
+$colored-section-color:white;
+$colored-section-title-color:darken($colored-section-color,5%);
+$colored-section-hr-color:darken($border-menu-color,70%);
+$link-hover:blue;
+$link-active:red;
+
+//Dimensions//
+$return-back-icon-font-size:2.5rem;
+$h1-font-size:2rem;
+$h2-font-size:1.5rem;
+$h3-font-size:1.25rem;
+$normal-font-size:15px;
+$header-height:3rem;
+$small-font-size:0.8rem;
+
+//Other//
+$z-index-fixed:100;
+$border-line:1px solid $border-menu-color;
+$thicker-border-line:2px solid $border-menu-color;
+
+
+
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+.content{
+    font-size: $normal-font-size;
+    color: $main-font-color;
+    background-color: $colored-section-color;
+}
+
+.title{
+    text-transform: uppercase;
+    color: $title-font-color;
+    font-size: $h1-font-size;
+    text-align: center;
+}
+
+.title span{
+    color: $title-color;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+#header .img-content .img-container{
+    width: $return-back-icon-font-size;
+}
