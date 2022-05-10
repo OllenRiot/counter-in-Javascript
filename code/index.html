@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='ita'>
     <head>
         <title>Counter fatto con HTML,CSS,SCSS e Javascript</title>
@@ -6,6 +7,7 @@
         <!--EXTERNAL CSS LIBRARIES-->
         <!--Fontawersome--><link rel="stylesheet" href="path/to/fontawesome.min.css">
         <!--Google Fonts--><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Google Fonts Icons--><link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <!--Animate.css--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
         <!--LINK FOR ASSETS-->
@@ -39,14 +41,89 @@
                         <img src="../assets/img/counter.png" alt="logo" title="logo">
                     </div>
 
-                    <span class="title">Javascript <span>Counter</span></span>
+                    <p class="title">Javascript <span>Counter</span></p>
                 </div>
 
+                <input type="checkbox" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span></span>
+                </label>
 
+                <ul id="menu">
+                    <li><a href="#main-content"><span>Contatore</span></a></li>
+                    <li><a href="#thanks"><span>Ringraziamenti</span></a></li>
+                    <li><a href="#contact"><span>Contattami</span></a></li>
+                </ul>
             </header>
 
             <div class="sections">
                 <section id="main-content">
+                    <header>
+                        <button class="title">
+                            <span id="counter-name">Contatore senza nome</span> 
+                            <span class="material-symbols-outlined hidden-inline icon">edit</span>
+                        </button>
+
+                        <div class="icons-container">
+                            <svg class='drop-btn icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+
+                            <ul class="panel">
+                                <li id="counter-add">Aggiungi al totale</li>
+                                <li id="counter-set">Imposta il contatore</li>
+                                <li id="counter-reset">Resetta il contatore</li>
+                                <li id="counter-modify">Incrementa/decrementa di ...</li>
+                            </ul>
+                        </div>
+                    </header>
+
+                    <div class="counter-container">
+                        <span id="number">0</span>
+                        
+                        <div class="icons-container" id="counter">
+                            <i class="fa-solid fas fa-minus icon" id="minus"></i>
+                            <i class="fa-solid fas fa-plus icon" id="plus"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="details">
+                    <header>
+                        <h2 class="title">Dettagli</h2>
+                    </header>
+
+                    <div class="details-countainer">
+                        <p class="subtitle">Informazioni generali</p>
+                        <p>
+                            Il sito presenta una serie di <strong>sezioni</strong> facilmente raggiungibili con un click sopra i vari link presenti nell'intestazione del sito.
+                            Il sito tuttavia ha come unico scopo quello di mostrare un semplice <strong>contatore</strong> con un valore che può essere <strong>incrementato</strong> o <strong>decrementato</strong> grazie ai simboli specifici presenti ma sono presenti anche altre <strong> proprietà aggiuntive</strong> molto utili,come:
+                        </p>
+
+                        <ul>
+                            <li>la possibilità di <strong>aggiungere un singolo valore</strong> al valore del <strong>contatore</strong>;</li>
+                            <li>la possibilità di <strong>impostare</strong> il valore del <strong>contatore</strong>;</li>
+                            <li>la possibilità di <strong>resettare</strong> il contatore;</li>
+                            <li>la possibilità di <strong>modificare</strong> il <strong>valore dell'incremento e decremento</strong>(<strong>default = 1</strong>); </li>
+                        </ul>
+
+                        <p class="subtitle">Tasti rapidi</p>
+                        <p>Oltre alle funzione già citate nella sezione sovrastante,il sito presenta anche la possibilità di utilizzare una serie di tasti rapidi per facilitare il tutto:</p>
+                        
+                        <ul>
+                            <h3>Combinazioni con <code>Alt</code></h3>
+                            <li><code>Alt + 0</code>: Mostra la <strong>lista delle scorciatoie</strong> sotto forma di <strong>alert</strong>;</li>
+                            <li><code>Alt + 1</code>: <strong>Aggiungi</strong> un valore al valore di partenza del <strong>contatore</strong>;
+                            <li><code>Alt + 2</code>: <strong>Imposta</strong> il valore del <strong>contatore</strong>;</li>
+                            <li><code>Alt + 3</code>: <strong>Resetta</strong> il <strong>contatore</strong>;</li>
+                            <li><code>Alt + 4</code>: <strong>Decidi l'incremento e il decremento</strong> del contatore;</li>
+                            <li><code>Alt + 5</code>:<strong>Cambia il nome del contatore</strong>;</li>
+                        </ul>
+
+                        <ul>
+                            <h3>Altre combinazioni</h3>
+                            <li>Tasto <code>+</code> /  <strong>freccia</strong> direzionale a <strong>destra</strong>: <strong>incrementa</strong> il contatore</li>
+                            <li>Tasto <code>-</code> /  <strong>freccia</strong> direzionale a <strong>sinistra</strong>: <strong>decrementa</strong> il contatore</li>
+                        </ul>
+                    </div>
                 </section>
 
                 <section id="thanks">
@@ -64,5 +141,7 @@
 
         <!--INTERNAL JAVASCRIPT FILES-->
         <script src="../assets/js/file.js"></script>
+        <script src="../assets/js/single-counter.js"></script>
+        <script src="../assets/js/multi-counters.js"></script>
     </body>
 </html>

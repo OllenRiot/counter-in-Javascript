@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "medium-device.scss"
+    ],
+    "names": [],
+    "file": "medium-device.css"
+}

@@ -3,21 +3,21 @@
 //Colors//
 $main-color:#2ee6e6;
 $complementary-color: #E62E2E;
-$title-color:darken($main-color,10%);
-$subtitle-color:lighten($main-color,10%);
+$darker-main-color:darken($main-color,10%);
+$lighter-main-color:lighten($main-color,40%);
 $main-font-color:lighten(black,30%);
-$title-font-color:black;
+$darker-main-font-color:black;
 $border-menu-color:#e5e5e5;
 $subtitle-font-color:darken($main-font-color,5%);
 $colored-section-background:darken($main-color,20%);
 $colored-section-color:white;
 $colored-section-title-color:darken($colored-section-color,5%);
 $colored-section-hr-color:darken($border-menu-color,70%);
-$link-hover:blue;
-$link-active:red;
 
 //Dimensions//
-$return-back-icon-font-size:2.5rem;
+$number-font-size: 5rem;
+$modifiers-font-size:4rem;
+$biggest-font-size:2.5rem;
 $h1-font-size:2rem;
 $h2-font-size:1.5rem;
 $h3-font-size:1.25rem;
@@ -27,13 +27,29 @@ $small-font-size:0.8rem;
 
 //Other//
 $z-index-fixed:100;
+$dotted-line:1px dotted $border-menu-color;
 $border-line:1px solid $border-menu-color;
 $thicker-border-line:2px solid $border-menu-color;
 
 
 
 /*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
-.content{
+.panel,
+.hidden,
+.hidden-inline{
+    display: none;
+}
+
+.show,
+.panel-open{
+    display: block;
+}
+
+.panel li{
+    cursor: pointer;
+}
+
+#content{
     font-size: $normal-font-size;
     color: $main-font-color;
     background-color: $colored-section-color;
@@ -41,21 +57,265 @@ $thicker-border-line:2px solid $border-menu-color;
 
 .title{
     text-transform: uppercase;
-    color: $title-font-color;
+    color: $darker-main-font-color;
     font-size: $h1-font-size;
     text-align: center;
 }
 
 .title span{
-    color: $title-color;
+    color: $darker-main-color;
+}
+
+.subtitle{
+    color:$darker-main-font-color;
+    display:block;
+    text-align: center;
+    font-size: $h2-font-size;
+}
+
+.icons-container svg,
+.icons-container i{
+    cursor: pointer;
+}
+
+.icons-container svg{
+    height:30px;
+    width:30px;
+}
+
+.icon{
+    font-size: $h3-font-size;
+}
+
+section{
+    padding:25px;
+    border: $thicker-border-line;
+    margin:15px 30px 30px 30px;
+    background-color: $lighter-main-color;
+    border-radius: 10px;
 }
 
 /*--------------------------------------------------------------HEADER--------------------------------------------------*/
 #header{
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    z-index: $z-index-fixed;
+    border: $border-line;
+}
+
+/*Header Img-content*/
+#header .img-content{
+    float: left;
+    display:flex;
+    padding: 20px;
 }
 
 #header .img-content .img-container{
-    width: $return-back-icon-font-size;
+    width: $biggest-font-size;
+}
+
+#header .img-content .img-container{
+    font-size: $h1-font-size;
+    margin:0 15px;
+}
+
+/*Header Label + Imput*/
+#menu-btn{
+    display:none;
+}
+
+#header .menu-icon{
+    padding: 35px 20px;
+    position: relative;
+    float:right;
+    cursor: pointer;
+}
+
+#header .menu-icon span{
+    display:block;
+    height:2px;
+    width:18px;
+    position:relative;
+    transition:all .2s ease-out;
+    background-color: $darker-main-font-color;
+}
+
+#header .menu-icon span::before{
+    display:block;
+    height:100%;
+    width:100%;
+    position:absolute;
+    transition:all .2s ease-out;
+    content:"";
+    top: 5px;
+    background-color: $darker-main-font-color;
+}
+
+#header .menu-icon span::after{
+    display:block;
+    height:100%;
+    width:100%;
+    position:absolute;
+    transition:all .2s ease-out;
+    content:"";
+    top: -5px;
+    background-color: $darker-main-font-color;
+}
+
+/*Header Menu*/
+#menu{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    max-height:  0;
+    transition: max-height .2s ease-out;
+}
+
+#menu li{
+    font-size: $h3-font-size;
+    padding:0 15px;
+}
+
+#menu li a{
+    display: block;
+    padding: 20px;
+    color:$darker-main-font-color;
+}
+
+#menu li:hover{
+    background-color: $border-menu-color;
+}
+
+#menu li a:hover{
+    color:$darker-main-color;
+    transition: all ease-in 0.1s;
+}
+
+/*Header Menu-btn Checked*/
+#menu-btn:checked ~ #menu{
+    max-height:240px;
+    z-index:100;
+}
+
+#menu-btn:checked ~ .menu-icon span{
+    background-color: transparent;
+}
+
+#menu-btn:checked ~ .menu-icon span::before{
+    transform:rotate(-45deg);
+    top:0;
+}
+
+#menu-btn:checked ~ .menu-icon span::after{
+    transform:rotate(45deg);
+    top:0;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content .icon:hover{
+    color: $main-color;
+}
+
+#main-content .icon:active,
+#number{
+    color: $complementary-color;
+}
+
+/*Main-Content Header*/
+#main-content header{
+    width: 100%;
+    position: relative;
+}
+
+#main-content header button{
+    border:none;
+    background-color: $lighter-main-color;
+    display: inline;
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+#counter-name{
+    color: $darker-main-font-color;
+}
+
+#counter-name:hover{
+    color:$darker-main-color;
+}
+
+#main-content header button:hover .hidden-inline{
+    display: inline;
+    cursor: pointer;
+    font-size: $h2-font-size;
+}
+
+#main-content header .icons-container{
+    float: right;
+    text-align: end;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+#main-content header .icons-container .panel{
+    position: absolute;
+    right:0;
+    background-color: $colored-section-color;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+#main-content header .icons-container .panel li{
+    font-size: $small-font-size;
+    padding:10px;
+    border-bottom:$border-line;
+    color: $main-font-color;
+}
+
+#main-content header .icons-container .panel li:hover{
+    font-style: italic;
+    background-color: $border-menu-color;
+}
+
+#main-content header .icons-container .panel li:active{
+    font-weight: bold;
+}
+
+/*Main-Content Counter-Container*/
+#main-content .counter-container{
+    text-align: center;
+    font-size: $biggest-font-size;
+    padding: 10px 0;
+}
+
+#main-content .counter-container .icons-container{
+    position: relative;
+    padding-top: 30px;
+}
+
+#main-content .counter-container .icons-container .icon{
+    font-size: $modifiers-font-size;
+    width:40%;
+    margin: 0;
+}
+
+#number{
+    font-size: $number-font-size;
+    padding:30px 0;
+}
+
+/*----------------------------------------------------------------------------DETAILS-------------------------------------------------------------------------------*/
+#details ul{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+#details ul li{
+    font-style: italic;
+}
+
+#details ul code{
+    font-weight: bold;
 }
