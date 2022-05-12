@@ -42,4 +42,4 @@ Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **par
 
 ## ![Logo](assets/img/readme-img/license-mini.png)  Licensa 
 
-[MIT](LICENSE)
+- [MIT](LICENSE)
