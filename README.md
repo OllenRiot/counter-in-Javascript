@@ -1,4 +1,4 @@
-# ![Logo](assets/img/counter-mini.png) Contatore 
+# ![Logo](assets/img/readme/counter-mini.png) Contatore 
 
 Il sito web correlato a questo **README** file contiene un **contatore** con un **valore di default (0)** che può essere **incrementato e decrementato** a proprio piacimento con un **semplice click**.
 
@@ -17,7 +17,7 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 
 
 
-## Linguaggi usati
+## ![Logo](assets/img/readme/pc-mini.png) Linguaggi usati
 
 - HTML
 - CSS
