@@ -48,6 +48,9 @@
                 <label for="menu-btn" class="menu-icon">
                     <span></span>
                 </label>
+                <label for='menu-btn' id='return-back-container'>
+                    <a id='return-back' href="#header"><i class="fas fa-arrow-up"></i></a>
+                </label>
 
                 <ul id="menu">
                     <li><a href="#main-content"><span>Contatore</span></a></li>
@@ -91,18 +94,18 @@
                         <h2 class="title">Dettagli</h2>
                     </header>
 
-                    <div class="details-countainer">
+                    <div class="section-content">
                         <p class="subtitle">Informazioni generali</p>
                         <p>
                             Il sito presenta una serie di <strong>sezioni</strong> facilmente raggiungibili con un click sopra i vari link presenti nell'intestazione del sito.
-                            Il sito tuttavia ha come unico scopo quello di mostrare un semplice <strong>contatore</strong> con un valore che può essere <strong>incrementato</strong> o <strong>decrementato</strong> grazie ai simboli specifici presenti ma sono presenti anche altre <strong> proprietà aggiuntive</strong> molto utili,come:
+                            Il sito tuttavia ha come unico scopo quello di mostrare un semplice <strong>contatore</strong> con un valore che può essere <strong>incrementato</strong> o <strong>decrementato</strong> grazie ai simboli specifici presenti ma oltre a ciò sono state aggiunte anche delle <strong> proprietà aggiuntive</strong> molto utili,come:
                         </p>
 
                         <ul>
                             <li>la possibilità di <strong>aggiungere un singolo valore</strong> al valore del <strong>contatore</strong>;</li>
                             <li>la possibilità di <strong>impostare</strong> il valore del <strong>contatore</strong>;</li>
                             <li>la possibilità di <strong>resettare</strong> il contatore;</li>
-                            <li>la possibilità di <strong>modificare</strong> il <strong>valore dell'incremento e decremento</strong>(<strong>default = 1</strong>); </li>
+                            <li>la possibilità di <strong>modificare</strong> il <strong>valore dell'incremento e decremento</strong>(<strong>default = 1</strong>). </li>
                         </ul>
 
                         <p class="subtitle">Tasti rapidi</p>
@@ -114,26 +117,75 @@
                             <li><code>Alt + 1</code>: <strong>Aggiungi</strong> un valore al valore di partenza del <strong>contatore</strong>;
                             <li><code>Alt + 2</code>: <strong>Imposta</strong> il valore del <strong>contatore</strong>;</li>
                             <li><code>Alt + 3</code>: <strong>Resetta</strong> il <strong>contatore</strong>;</li>
-                            <li><code>Alt + 4</code>: <strong>Decidi l'incremento e il decremento</strong> del contatore;</li>
-                            <li><code>Alt + 5</code>:<strong>Cambia il nome del contatore</strong>;</li>
+                            <li><code>Alt + 4</code>: <strong>Decidi</strong> l'<strong>incremento</strong> e il <strong>decremento</strong> del contatore;</li>
+                            <li><code>Alt + 5</code>:<strong>Cambia il nome</strong> del contatore.</li>
                         </ul>
 
                         <ul>
                             <h3>Altre combinazioni</h3>
-                            <li>Tasto <code>+</code> /  <strong>freccia</strong> direzionale a <strong>destra</strong>: <strong>incrementa</strong> il contatore</li>
-                            <li>Tasto <code>-</code> /  <strong>freccia</strong> direzionale a <strong>sinistra</strong>: <strong>decrementa</strong> il contatore</li>
+                            <li>Tasto <code>+</code> /  <strong>freccia</strong> direzionale a <strong>destra</strong>: <strong>incrementa</strong> il contatore;</li>
+                            <li>Tasto <code>-</code> /  <strong>freccia</strong> direzionale a <strong>sinistra</strong>: <strong>decrementa</strong> il contatore.</li>
                         </ul>
                     </div>
                 </section>
 
                 <section id="thanks">
+                    <header>
+                        <h2 class="title">Ringraziamenti e riconoscimenti</h2>
+                    </header>
+
+                    <div class="section-content">
+                        <p>Ringrazio per la <strong>realizzazione del sito</strong> tutte le <strong>risorse</strong> che hanno contribuito a tutto ciò.</p>
+                        <p>Per usufruire di tali risorse non vi basta far altro che <strong>cliccare</strong> alle <strong>parole chiave</strong> sotto evidenziate per andare direttamente alle varie pagine web.</p>
+
+                        <ul>
+                            <h3>Icone</h3>
+                            <li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
+                            <li><a href="https://it.freepik.com/" target="_blank">Freepik</a></li>
+                        </ul>
+
+                        <ul>
+                            <h3>File SVG</h3>
+                            <li><a href="http:/www.w3.org" target="_blank">W3C</a></li>
+                        </ul>
+
+                        <ul>
+                            <h3>Contenuto</h3>
+                            <li> <a href="https://www.start2impact.it/" target="_blank">Start2Impact</a></li>
+                        </ul>
+                    </div>
                 </section>
 
                 <section id="contact">
+                    <header>
+                        <h2 class='title'>Area contatti</h2>
+                    </header>
+
+                    <div class="section-content">
+                        <div class="icons">
+                            <div class='icons-container'>
+                                <i class="fas fa-phone-square-alt"></i>
+                                <span><h3>Il mio <span>numero</span></h3></span>
+                                <span>+39 379 284 0262</span>
+                            </div>
+                            <div class='icons-container'>
+                                <i class="fas fa-envelope-square"></i>
+                                <span><h3>La mia <span>Email</span></h3></span>
+                                <span><a href='mailto:aniello.piscopo0707@gmail.com' alt="email" title='Contattami via email' >aniello.piscopo0707@gmail.com</a></span>
+                            </div>
+                            <div class="icons-container">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span><h3>Il mio <span>indirizzo</span></h3></span>
+                                <span>1 traversa Ferdinando Russo, 13, 80026 Casoria NA</span>
+                            </div>
+                        </div> 
+                    </div>
                 </section>
             </div>
 
+            <!----------------------------------------------------------Footer--------------------------------------------------------------------->
             <footer id="footer">
+                <p>©<span><em>Aniello Piscopo</em></span> || <strong>Licensa offerta da <a href='../../../LICENSE' title="read the license">MIT License</strong></p>
             </footer>
         </div>
 
@@ -141,7 +193,5 @@
 
         <!--INTERNAL JAVASCRIPT FILES-->
         <script src="../assets/js/file.js"></script>
-        <script src="../assets/js/single-counter.js"></script>
-        <script src="../assets/js/multi-counters.js"></script>
     </body>
 </html>

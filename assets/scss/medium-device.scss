@@ -1,0 +1,110 @@
+//SCSS GENERAL PARAMETERS//
+
+//Dimensions//
+$number-font-size: 6rem;
+$modifiers-font-size:5rem;
+$biggest-font-size:3rem;
+$h1-font-size:2.2rem;
+$great-font-size: 1.9rem;
+$h2-font-size:1.7rem;
+$h3-font-size:1.27rem;
+$normal-font-size:17px;
+$small-font-size:0.9rem;
+
+
+
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content{
+    font-size: $normal-font-size;
+}
+
+.title{
+    font-size: $h1-font-size;
+}
+
+.subtitle{
+    font-size: $h2-font-size;
+}
+
+.icon{
+    font-size: $h3-font-size;
+}
+
+#return-back-container{
+    font-size: $biggest-font-size;
+    right:3%;
+    bottom:3%;
+}
+
+
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header .img-content .img-container{
+    width: $biggest-font-size;
+}
+
+#header .img-content .img-container{
+    font-size: $h1-font-size;
+}
+
+#menu li{
+    font-size: $h3-font-size;
+}
+
+
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header button:hover .hidden-inline{
+    font-size: $h2-font-size;
+}
+
+#main-content header .icons-container .panel li{
+    font-size: $small-font-size;
+}
+
+#main-content .counter-container{
+    font-size: $biggest-font-size;
+}
+
+#main-content .counter-container .icons-container .icon{
+    font-size: $modifiers-font-size;
+}
+
+#number{
+    font-size: $number-font-size;
+}
+
+
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title{
+    font-size: $great-font-size;
+}
+
+
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .icons .icons-container i{
+    font-size:$h1-font-size;
+}
+
+#contact .icons .icons-container span:last-of-type:not(h3 span),
+#contact .icons a{
+    font-size:$small-font-size;
+}
+
+#contact .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .icons .icons-container:hover a{
+    font-size:$normal-font-size;
+}
+
+#contact .section-content .icons{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact .icons .icons-container{
+    width:40%;
+    margin:0 15px 30px 15px;
+}

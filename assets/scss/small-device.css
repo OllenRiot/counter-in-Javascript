@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=small-device.css.map */
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content {
+  font-size: 13px;
+}
+
+#return-back-container {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+}
+
+.icons-container svg {
+  height: 25px;
+  width: 25px;
+}
+
+section {
+  margin: 10px 25px 25px 25px;
+  padding: 20px;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header .img-content {
+  width: 80%;
+}
+
+#header .img-content .img-container {
+  width: 1.7rem;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+#menu li {
+  font-size: 0.9rem;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header .title {
+  font-size: 1.1rem;
+  padding: 50px 0;
+}
+
+#main-content header button:hover .hidden-inline {
+  font-size: 1.1rem;
+}
+
+#main-content header .icons-container .drop-btn {
+  width: 1.7rem;
+}
+
+#main-content header .icons-container .panel li {
+  font-size: 0.6rem;
+}
+
+#main-content .counter-container {
+  font-size: 2rem;
+}
+
+#main-content .counter-container .icons-container .icon {
+  font-size: 1.7rem;
+}
+
+#number {
+  font-size: 2.75rem;
+  padding: 50px 0;
+}
+
+#main-content .counter-container .icons-container {
+  padding-top: 70px;
+}
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title {
+  font-size: 1.1rem;
+}
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .section-content .icons .icons-container i {
+  font-size: 1.7rem;
+}
+
+#contact .section-content .icons .icons-container span:last-of-type:not(h3 span),
+#contact .section-content .icons a {
+  font-size: 0.6rem;
+}
+
+#contact .section-content .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .section-content .icons .icons-container:hover a {
+  font-size: 0.9rem;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  font-weight: bold;
+}
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer {
+  padding-bottom: 5%;
+  font-size: 0.6rem;
+}
+/*# sourceMappingURL=small-device.css.map */

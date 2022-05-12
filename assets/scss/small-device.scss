@@ -1,0 +1,129 @@
+//SCSS GENERAL PARAMETERS//
+
+//Dimensions//
+$number-font-size: 2.75rem;
+$modifiers-font-size:2.5rem;
+$biggest-font-size:2rem;
+$h1-font-size:1.7rem;
+$great-font-size: 1.5rem;
+$h2-font-size:1.1rem;
+$h3-font-size:0.9rem;
+$normal-font-size:13px;
+$small-font-size:0.6rem;
+
+
+
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content{
+    font-size: $normal-font-size;
+}
+
+#return-back-container{
+    font-size: $biggest-font-size;
+}
+
+.title{
+    font-size: $great-font-size;
+}
+
+.subtitle{
+    font-size: $h2-font-size;
+}
+
+.icons-container svg{
+    height:25px;
+    width:25px;
+}
+
+section{
+    margin:10px 25px 25px 25px;
+    padding:20px;
+}
+
+
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header .img-content{
+    width: 80%;
+}
+
+#header .img-content .img-container{
+    width: $h1-font-size;
+    margin:0;
+    font-size: $h2-font-size;
+}
+
+#menu li{
+    font-size: $h3-font-size;
+}
+
+
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header .title{
+    font-size: $h2-font-size;
+    padding: 50px 0;
+}
+
+#main-content header button:hover .hidden-inline{
+    font-size: $h2-font-size;
+}
+
+#main-content header .icons-container .drop-btn{
+    width: $h1-font-size;
+}
+
+#main-content header .icons-container .panel li{
+    font-size: $small-font-size;
+}
+
+#main-content .counter-container{
+    font-size: $biggest-font-size;
+}
+
+#main-content .counter-container .icons-container .icon{
+    font-size: $h1-font-size;
+}
+
+#number{
+    font-size: $number-font-size;
+    padding: 50px 0;
+}
+
+#main-content .counter-container .icons-container{
+    padding-top: 70px;
+}
+
+
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title{
+    font-size: $h2-font-size;
+}
+
+
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .section-content .icons .icons-container i{
+    font-size:$h1-font-size;
+}
+
+#contact .section-content .icons .icons-container span:last-of-type:not(h3 span),
+#contact .section-content .icons a{
+    font-size:$small-font-size;
+}
+
+#contact .section-content .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .section-content .icons .icons-container:hover a{
+    font-size:$h3-font-size;
+    transition:all ease-in 0.3s;
+    font-weight: bold;
+}
+
+
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer{
+    padding-bottom: 5%;
+    font-size:$small-font-size;
+}

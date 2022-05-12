@@ -8,6 +8,7 @@
 /*INITIAL CHANGES*/
 html{
     scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 ul{

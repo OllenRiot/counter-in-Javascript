@@ -1,1 +1,92 @@
-/* No CSS *//*# sourceMappingURL=medium-device.css.map */
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content {
+  font-size: 17px;
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.subtitle {
+  font-size: 1.7rem;
+}
+
+.icon {
+  font-size: 1.27rem;
+}
+
+#return-back-container {
+  font-size: 3rem;
+  right: 3%;
+  bottom: 3%;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header .img-content .img-container {
+  width: 3rem;
+}
+
+#header .img-content .img-container {
+  font-size: 2.2rem;
+}
+
+#menu li {
+  font-size: 1.27rem;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header button:hover .hidden-inline {
+  font-size: 1.7rem;
+}
+
+#main-content header .icons-container .panel li {
+  font-size: 0.9rem;
+}
+
+#main-content .counter-container {
+  font-size: 3rem;
+}
+
+#main-content .counter-container .icons-container .icon {
+  font-size: 5rem;
+}
+
+#number {
+  font-size: 6rem;
+}
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title {
+  font-size: 1.9rem;
+}
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .icons .icons-container i {
+  font-size: 2.2rem;
+}
+
+#contact .icons .icons-container span:last-of-type:not(h3 span),
+#contact .icons a {
+  font-size: 0.9rem;
+}
+
+#contact .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .icons .icons-container:hover a {
+  font-size: 17px;
+}
+
+#contact .section-content .icons {
+  display: flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contact .icons .icons-container {
+  width: 40%;
+  margin: 0 15px 30px 15px;
+}
+/*# sourceMappingURL=medium-device.css.map */
