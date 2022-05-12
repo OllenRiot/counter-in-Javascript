@@ -5,7 +5,7 @@ Il sito web correlato a questo **README** file contiene un **contatore** con un 
 Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e caratteristiche**:
 
 
-## ![Logo](assets/img/readme-img/advantages.png)  Vantaggi e proprietà
+## ![Logo](assets/img/readme-img/advantages-mini.png)  Vantaggi e proprietà
 
 - Presenza della ***Dark-mode***
 
