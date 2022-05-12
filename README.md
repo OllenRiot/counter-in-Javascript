@@ -30,7 +30,7 @@ Ringrazio per la **realizzazione del sito** tutte le **risorse che hanno contrib
 
 Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **parole chiave** sotto evidenziate per andare direttamente alle varie pagine web.
 ### LOGO E FAVICON 
-- [Flaticon](https://www.flaticon.com/) ![Logo](assets/img/readme/flaticon-mini.png)
+- [Flaticon](https://www.flaticon.com/) 
 ### IDEA DEL PROGETTO
 - [Start2impact](https://www.start2impact.it/)
 
