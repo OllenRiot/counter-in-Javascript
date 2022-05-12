@@ -17,7 +17,7 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 
 
 
-## Linguaggi usati
+## ![Logo](assets/altro/counter.ico) Linguaggi usati
 
 - HTML
 - CSS
