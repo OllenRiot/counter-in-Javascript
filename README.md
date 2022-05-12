@@ -1,4 +1,4 @@
-# ![Logo](assets/img/readme-img/counter-mini.png)  Contatore 
+# ![Logo](assets/img/readme-img/counter-mini.png)  JAVASCRIPT COUNTER
 
 Il sito web correlato a questo **README** file contiene un **contatore** con un **valore di default (0)** che può essere **incrementato e decrementato** a proprio piacimento con un **semplice click**.
 
