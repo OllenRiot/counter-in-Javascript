@@ -1,4 +1,4 @@
-# ![Logo](assets/other/counter.ico) Contatore 
+# ![Logo](assets/img/counter-mini.png) Contatore 
 
 Il sito web correlato a questo **README** file contiene un **contatore** con un **valore di default (0)** che può essere **incrementato e decrementato** a proprio piacimento con un **semplice click**.
 
