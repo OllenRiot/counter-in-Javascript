@@ -37,8 +37,8 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 Ringrazio per la **realizzazione del sito** tutte le **risorse che hanno contribuito** a tutto ciò.
 
 Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **parole chiave** sotto evidenziate per andare direttamente alle varie pagine web.
-### LOGO E FAVICON ![Logo](assets/img/readme/favicon-mini.png)
-- [Flaticon](https://www.flaticon.com/)
+### LOGO E FAVICON 
+- [Flaticon](https://www.flaticon.com/) ![Logo](assets/img/readme/flaticon-mini.png)
 ### IDEA DEL PROGETTO
 - [Start2impact](https://www.start2impact.it/)
 ## Autore
