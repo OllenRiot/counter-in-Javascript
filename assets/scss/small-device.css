@@ -44,6 +44,7 @@ section {
 #main-content header .title {
   font-size: 0.9rem;
   padding: 50px 0;
+  width: 80%;
 }
 
 #counter-name {
