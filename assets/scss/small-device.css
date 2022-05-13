@@ -48,11 +48,11 @@ section {
 }
 
 #counter-name {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 #main-content header button:hover .hidden-inline {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 #main-content header .icons-container .drop-btn {
