@@ -3,7 +3,7 @@
 Il sito web correlato a questo **README** file contiene un **contatore** con un **valore di default (0)** che può essere **incrementato e decrementato** a proprio piacimento con un **semplice click**.
 
 Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e caratteristiche**:
-
+***
 
 ## ![Logo](assets/img/readme-img/advantages-mini.png)  Vantaggi e proprietà
 
@@ -34,7 +34,6 @@ Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **par
 - [Font Awersome](https://fontawesome.com/) 
 ### IDEA DEL PROGETTO
 - [Start2impact](https://www.start2impact.it/)
-***
 
 ## ![Logo](assets/img/readme-img/info-mini.png)  Autore
 
