@@ -28,7 +28,7 @@ let [drop1,drop2,drop3,...dropR] = dropBtns;
 //Variables with a value
 let modifier = 1;
 let counterValue = 0;
-let counterNameDefault = 'Contatore senza nome';
+let counterNameDefault = 'Contatore';
 
 //Variables without a value
 let addToTotal;
