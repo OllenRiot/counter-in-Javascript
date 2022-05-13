@@ -34,7 +34,7 @@ Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **par
 - [Font Awersome](https://fontawesome.com/) 
 ### IDEA DEL PROGETTO
 - [Start2impact](https://www.start2impact.it/)
-
+***
 
 ## ![Logo](assets/img/readme-img/info-mini.png)  Autore
 
