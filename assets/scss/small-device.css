@@ -42,12 +42,16 @@ section {
 
 /*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
 #main-content header .title {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   padding: 50px 0;
 }
 
+#counter-name {
+  font-size: 0.9rem;
+}
+
 #main-content header button:hover .hidden-inline {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 #main-content header .icons-container .drop-btn {
