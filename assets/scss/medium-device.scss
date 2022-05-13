@@ -81,6 +81,12 @@ $small-font-size:0.9rem;
     font-size: $great-font-size;
 }
 
+#thanks .thanks-list{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 /*----------------------------------------CONTACT----------------------------------*/
@@ -107,4 +113,12 @@ $small-font-size:0.9rem;
 #contact .icons .icons-container{
     width:40%;
     margin:0 15px 30px 15px;
+}
+
+
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer{
+    padding-bottom: 5%;
+    font-size:$small-font-size;
 }

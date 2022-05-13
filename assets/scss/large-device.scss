@@ -1,0 +1,166 @@
+//SCSS GENERAL PARAMETERS//
+
+//Colors//
+$main-color:#2ee6e6;
+$complementary-color: #E62E2E;
+$darker-main-color:darken($main-color,10%);
+$lighter-main-color:lighten($main-color,40%);
+$main-font-color:lighten(black,30%);
+$darker-main-font-color:black;
+$border-menu-color:#e5e5e5;
+$subtitle-font-color: darken($main-font-color,5%);
+$colored-section-color:white;
+
+//Dimensions//
+$number-font-size: 7rem;
+$modifiers-font-size:6rem;
+$biggest-font-size:3.5rem;
+$h1-font-size:2.3rem;
+$great-font-size: 2rem;
+$h2-font-size:1.8rem;
+$h3-font-size:1.3rem;
+$normal-font-size:18px;
+$small-font-size:1rem;
+
+//Other//
+$z-index-fixed:100;
+$border-line:1px solid $border-menu-color;
+$thicker-border-line:2px solid $border-menu-color;
+
+
+
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content{
+    font-size: $normal-font-size;
+}
+
+#content:not(#header){
+    margin-top: 10%;
+}
+
+.title{
+    font-size: $h1-font-size;
+}
+
+.subtitle{
+    font-size: $h2-font-size;
+}
+
+.icon{
+    font-size: $h2-font-size;
+}
+
+
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: $colored-section-color;
+    opacity: 0.9;
+}
+
+#header .img-content .img-container{
+    width: $biggest-font-size;
+}
+
+#header .img-content .img-container{
+    font-size: $h1-font-size;
+}
+
+#menu{
+    padding-top: 10px;
+    padding-right:0;
+    margin: 0;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu li{
+    font-size: $h3-font-size;
+    font-style: italic;
+}
+
+#menu li a:active{
+    color:$complementary-color
+}
+
+#menu li:hover{
+    background-color: $colored-section-color;
+}
+
+#header input,
+#header label{
+    display: none;
+}
+
+
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header button:hover .hidden-inline{
+    font-size: $h2-font-size;
+}
+
+#main-content header .icons-container .panel li{
+    font-size: $small-font-size;
+}
+
+#main-content .counter-container{
+    font-size: $biggest-font-size;
+}
+
+#main-content .counter-container .icons-container .icon{
+    font-size: $modifiers-font-size;
+}
+
+#number{
+    font-size: $number-font-size;
+}
+
+
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title{
+    font-size: $great-font-size;
+}
+
+
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .icons .icons-container i{
+    font-size:$h1-font-size;
+}
+
+#contact .icons .icons-container span:last-of-type:not(h3 span),
+#contact .icons a{
+    font-size:$small-font-size;
+}
+
+#contact .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .icons .icons-container:hover a{
+    font-size:$normal-font-size;
+}
+
+#contact .section-content .icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact .icons .icons-container{
+    width:40%;
+    margin:0 15px 30px 15px;
+}
+
+
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer{
+    padding-bottom: 3%;
+    font-size:$h3-font-size;
+}

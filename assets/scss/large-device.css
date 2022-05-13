@@ -1,1 +1,144 @@
-/* No CSS *//*# sourceMappingURL=large-device.css.map */
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content {
+  font-size: 18px;
+}
+
+#content:not(#header) {
+  margin-top: 10%;
+}
+
+.title {
+  font-size: 2.3rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+}
+
+#header .img-content .img-container {
+  width: 3.5rem;
+}
+
+#header .img-content .img-container {
+  font-size: 2.3rem;
+}
+
+#menu {
+  padding-top: 10px;
+  padding-right: 0;
+  margin: 0;
+  max-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#menu li {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#menu li a:active {
+  color: #E62E2E;
+}
+
+#menu li:hover {
+  background-color: white;
+}
+
+#header input,
+#header label {
+  display: none;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+#main-content header button:hover .hidden-inline {
+  font-size: 1.8rem;
+}
+
+#main-content header .icons-container .panel li {
+  font-size: 1rem;
+}
+
+#main-content .counter-container {
+  font-size: 3.5rem;
+}
+
+#main-content .counter-container .icons-container .icon {
+  font-size: 6rem;
+}
+
+#number {
+  font-size: 7rem;
+}
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+#thanks .title {
+  font-size: 2rem;
+}
+
+/*----------------------------------------CONTACT----------------------------------*/
+#contact .icons .icons-container i {
+  font-size: 2.3rem;
+}
+
+#contact .icons .icons-container span:last-of-type:not(h3 span),
+#contact .icons a {
+  font-size: 1rem;
+}
+
+#contact .icons .icons-container:hover span:last-of-type:not(h3 span),
+#contact .icons .icons-container:hover a {
+  font-size: 18px;
+}
+
+#contact .section-content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contact .icons .icons-container {
+  width: 40%;
+  margin: 0 15px 30px 15px;
+}
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer {
+  padding-bottom: 3%;
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=large-device.css.map */

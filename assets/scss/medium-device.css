@@ -60,6 +60,16 @@
   font-size: 1.9rem;
 }
 
+#thanks .thanks-list {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 /*----------------------------------------CONTACT----------------------------------*/
 #contact .icons .icons-container i {
   font-size: 2.2rem;
@@ -88,5 +98,11 @@
 #contact .icons .icons-container {
   width: 40%;
   margin: 0 15px 30px 15px;
+}
+
+/*----------------------------------------------------FOOTER------------------------*/
+#footer {
+  padding-bottom: 5%;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=medium-device.css.map */

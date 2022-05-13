@@ -302,6 +302,7 @@ section .section-content ul{
     padding:10px;
     border-bottom:$border-line;
     color: $main-font-color;
+    border-radius: 10px;
 }
 
 #main-content header .icons-container .panel li:hover{
@@ -377,7 +378,6 @@ section .section-content ul{
 
 #contact .section-content{
     display:flex;
-    flex-direction:column;
     width:100%;
     justify-content: center;
     align-items:center;

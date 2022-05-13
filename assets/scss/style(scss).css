@@ -279,6 +279,7 @@ section .section-content ul {
   padding: 10px;
   border-bottom: 1px solid #e5e5e5;
   color: #4d4d4d;
+  border-radius: 10px;
 }
 
 #main-content header .icons-container .panel li:hover {
@@ -355,10 +356,6 @@ section .section-content ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
