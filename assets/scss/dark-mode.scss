@@ -1,0 +1,226 @@
+//SCSS GENERAL PARAMETERS//
+
+//Colors//
+$main-color:#2ee6e6;
+$complementary-color: #E62E2E;
+$darker-main-color:darken($main-color,10%);
+$lighter-main-color:lighten($main-color,40%);
+$darker-main-font-color:black;
+$main-font-color:lighten($darker-main-font-color,30%);
+$border-menu-color:#e5e5e5;
+$subtitle-font-color: darken($main-font-color,5%);
+$colored-section-color:white;
+
+//Inverted Colors//
+$inverted-main-color:gold;
+$inverted-complementary-color:invert($complementary-color);
+$inverted-darker-main-color: darken($inverted-main-color,10%);
+$inverted-lighter-main-color:lighten($inverted-main-color,20%);
+$inverted-darker-main-font-color:invert($darker-main-font-color);
+$inverted-main-font-color:lighten($inverted-darker-main-font-color,30%);
+$inverted-border-menu-color: invert($border-menu-color);
+$inverted-subtitle-font-color:darken($inverted-main-font-color,5%);
+$inverted-colored-section-color:invert($colored-section-color);
+
+//Other//
+$z-index-fixed:100;
+$inverted-border-line:1px solid $inverted-border-menu-color;
+$inverted-thicker-border-line:2px solid $inverted-border-menu-color;
+
+
+
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content.inverted{
+    color: $inverted-main-font-color;
+    background-color: $inverted-colored-section-color;
+}
+
+.inverted .title{
+    color: $inverted-main-color;
+}
+
+.inverted .title span{
+    color: $inverted-darker-main-color;
+}
+
+.inverted .subtitle{
+    color:$inverted-darker-main-color;
+}
+
+.inverted section{
+    border: $inverted-thicker-border-line;
+    background-color: $inverted-colored-section-color;
+}
+
+.inverted .section-content ul h3{
+    color: $inverted-lighter-main-color;
+}
+
+.inverted #return-back{
+    color: $inverted-main-font-color;
+}
+
+.inverted #return-back:hover,
+.inverted #dark-mode .icon:hover{
+    color: $inverted-main-color;
+}
+
+.inverted #return-back:active,
+.inverted #dark-mode .icon:active{
+    color:$inverted-complementary-color;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+.inverted #header{
+    border: $inverted-border-line;
+    background-color: $inverted-colored-section-color;
+}
+
+.inverted #header .title{
+    color:$inverted-main-font-color;
+}
+
+.inverted #header .menu-icon span{
+    background-color: $inverted-darker-main-font-color;
+}
+
+.inverted #header .menu-icon span::before{
+    background-color: $inverted-darker-main-font-color;
+}
+
+.inverted #header .menu-icon span::after{
+    background-color: $inverted-darker-main-font-color;
+}
+
+.inverted #menu li a{
+    color:$inverted-darker-main-font-color;
+}
+
+.inverted #menu li:hover{
+    background-color: $inverted-border-menu-color;
+}
+
+.inverted #menu li a:hover{
+    color:$inverted-darker-main-color;
+}
+
+.inverted #menu-btn:checked ~ .menu-icon span{
+    background-color: $inverted-colored-section-color;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+.inverted #main-content .icon:hover{
+    color: $inverted-main-color;
+}
+
+.inverted #main-content .icon:active{
+    color: $inverted-complementary-color;
+}
+
+.inverted #number{
+    color: $inverted-main-color;
+}
+
+.inverted #main-content header button{
+    background-color: $inverted-colored-section-color;
+}
+
+.inverted #counter-name,
+.inverted #main-content header button .hidden-inline{
+    color: $inverted-darker-main-font-color;
+}
+
+.inverted #main-content header button .hidden-inline:hover{
+    color: $inverted-main-color;
+}
+
+.inverted #counter-name:hover{
+    color:$inverted-main-color;
+}
+
+.inverted #main-content header .icons-container .panel{
+    background-color: $inverted-colored-section-color;
+}
+
+.inverted #main-content header .icons-container .panel li{
+    border-bottom:$inverted-border-line;
+    color: $inverted-main-font-color;
+}
+
+.inverted #main-content header .icons-container .panel li:hover{
+    background-color: $inverted-border-menu-color;
+    color: $inverted-main-color;
+}
+
+/*----------------------------------------------------------------------------DETAILS-------------------------------------------------------------------------------*/
+.inverted #details ul li code{
+    color: $inverted-main-color;
+}
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+.inverted #thanks ul li a{
+    color: $inverted-main-font-color;
+}
+
+/*----------------------------------------CONTACT----------------------------------*/
+.inverted #contact .section-content .icons .icons-container{
+    color:$inverted-darker-main-font-color;
+    border:$inverted-border-line;
+}
+
+.inverted #contact .section-content .icons .icons-container i{
+    color:$inverted-main-color;
+}
+
+.inverted #contact .section-content .icons .icons-container span:last-of-type:not(h3 span),
+.inverted #contact .section-content .icons a{
+    color:$inverted-subtitle-font-color;
+}
+
+.inverted #contact .section-content .icons .icons-container h3 span{
+    color:$inverted-darker-main-color;
+}
+
+.inverted #contact .section-content .icons a:hover,
+.inverted #contact .section-content .icons a:active{
+    color:$inverted-main-color;
+}
+
+.inverted #contact .section-content .icons .icons-container:hover{
+    background-color:$inverted-border-menu-color;
+}
+
+/*----------------------------------------------------FOOTER------------------------*/
+.inverted #footer a{
+    color:$inverted-darker-main-font-color;
+}
+
+.inverted #footer a:hover{
+    color:$inverted-main-color;
+}
+
+
+
+
+/*----------------------------------------------------------------PC DESIGN----------------------------------------------------------------*/
+@media only screen and (min-width:991px){
+    /*--------------------------------------------------------------HEADER--------------------------------------------------*/
+    .inverted #header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color: $inverted-colored-section-color;
+        opacity: 0.9;
+    }
+
+    .inverted #menu li a:active{
+        color:$inverted-complementary-color;
+    }
+    
+    .inverted #menu li:hover{
+        background-color: $inverted-colored-section-color;
+    }
+}

@@ -1,13 +1,19 @@
 /*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
 .panel,
+.hidden-inline,
 .hidden,
-.hidden-inline {
+#sun-icon {
   display: none;
 }
 
 .show,
-.panel-open {
+.panel-open,
+#moon-icon {
   display: block;
+}
+
+.show-inline {
+  display: inline;
 }
 
 .panel li {
@@ -69,6 +75,7 @@ section .section-content ul {
   padding: 10px 0;
 }
 
+/*--------------------------------------------------------------DARK-MODE + RETURNBACK--------------------------------------------------*/
 #return-back-container {
   font-size: 2.5rem;
   position: fixed;
@@ -88,9 +95,30 @@ section .section-content ul {
   color: #E62E2E;
 }
 
+#dark-mode {
+  position: fixed;
+  left: 3%;
+  bottom: 1%;
+}
+
+#dark-mode .icon {
+  font-size: 2.5rem;
+}
+
+#dark-mode .icon:hover {
+  color: #2ee6e6;
+}
+
+#dark-mode .icon:active {
+  color: #E62E2E;
+}
+
 @media only screen and (min-height: 500px) and (max-height: 800px) {
   #return-back {
     bottom: 10%;
+  }
+  #dark-mode {
+    bottom: 5%;
   }
 }
 
@@ -107,7 +135,7 @@ section .section-content ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 #header .img-content .img-container {

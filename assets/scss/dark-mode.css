@@ -1,1 +1,198 @@
-/* No CSS *//*# sourceMappingURL=dark-mode.css.map */
+/*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
+#content.inverted {
+  color: white;
+  background-color: black;
+}
+
+.inverted .title {
+  color: gold;
+}
+
+.inverted .title span {
+  color: #ccac00;
+}
+
+.inverted .subtitle {
+  color: #ccac00;
+}
+
+.inverted section {
+  border: 2px solid #1a1a1a;
+  background-color: black;
+}
+
+.inverted .section-content ul h3 {
+  color: #ffe766;
+}
+
+.inverted #return-back {
+  color: white;
+}
+
+.inverted #return-back:hover,
+.inverted #dark-mode .icon:hover {
+  color: gold;
+}
+
+.inverted #return-back:active,
+.inverted #dark-mode .icon:active {
+  color: #19d1d1;
+}
+
+/*--------------------------------------------------------------HEADER--------------------------------------------------*/
+.inverted #header {
+  border: 1px solid #1a1a1a;
+  background-color: black;
+}
+
+.inverted #header .title {
+  color: white;
+}
+
+.inverted #header .menu-icon span {
+  background-color: white;
+}
+
+.inverted #header .menu-icon span::before {
+  background-color: white;
+}
+
+.inverted #header .menu-icon span::after {
+  background-color: white;
+}
+
+.inverted #menu li a {
+  color: white;
+}
+
+.inverted #menu li:hover {
+  background-color: #1a1a1a;
+}
+
+.inverted #menu li a:hover {
+  color: #ccac00;
+}
+
+.inverted #menu-btn:checked ~ .menu-icon span {
+  background-color: black;
+}
+
+/*----------------------------------------------------------------------------MAIN-CONTENT-------------------------------------------------------------------------------*/
+.inverted #main-content .icon:hover {
+  color: gold;
+}
+
+.inverted #main-content .icon:active {
+  color: #19d1d1;
+}
+
+.inverted #number {
+  color: gold;
+}
+
+.inverted #main-content header button {
+  background-color: black;
+}
+
+.inverted #counter-name,
+.inverted #main-content header button .hidden-inline {
+  color: white;
+}
+
+.inverted #main-content header button .hidden-inline:hover {
+  color: gold;
+}
+
+.inverted #counter-name:hover {
+  color: gold;
+}
+
+.inverted #main-content header .icons-container .panel {
+  background-color: black;
+}
+
+.inverted #main-content header .icons-container .panel li {
+  border-bottom: 1px solid #1a1a1a;
+  color: white;
+}
+
+.inverted #main-content header .icons-container .panel li:hover {
+  background-color: #1a1a1a;
+  color: gold;
+}
+
+/*----------------------------------------------------------------------------DETAILS-------------------------------------------------------------------------------*/
+.inverted #details ul li code {
+  color: gold;
+}
+
+/*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
+.inverted #thanks ul li a {
+  color: white;
+}
+
+/*----------------------------------------CONTACT----------------------------------*/
+.inverted #contact .section-content .icons .icons-container {
+  color: white;
+  border: 1px solid #1a1a1a;
+}
+
+.inverted #contact .section-content .icons .icons-container i {
+  color: gold;
+}
+
+.inverted #contact .section-content .icons .icons-container span:last-of-type:not(h3 span),
+.inverted #contact .section-content .icons a {
+  color: #f2f2f2;
+}
+
+.inverted #contact .section-content .icons .icons-container h3 span {
+  color: #ccac00;
+}
+
+.inverted #contact .section-content .icons a:hover,
+.inverted #contact .section-content .icons a:active {
+  color: gold;
+}
+
+.inverted #contact .section-content .icons .icons-container:hover {
+  background-color: #1a1a1a;
+}
+
+/*----------------------------------------------------FOOTER------------------------*/
+.inverted #footer a {
+  color: white;
+}
+
+.inverted #footer a:hover {
+  color: gold;
+}
+
+/*----------------------------------------------------------------PC DESIGN----------------------------------------------------------------*/
+@media only screen and (min-width: 991px) {
+  /*--------------------------------------------------------------HEADER--------------------------------------------------*/
+  .inverted #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+  }
+  .inverted #menu li a:active {
+    color: #19d1d1;
+  }
+  .inverted #menu li:hover {
+    background-color: black;
+  }
+}
+/*# sourceMappingURL=dark-mode.css.map */

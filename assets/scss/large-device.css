@@ -4,7 +4,7 @@
 }
 
 #content:not(#header) {
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 .title {
@@ -17,6 +17,12 @@
 
 .icon {
   font-size: 1.8rem;
+}
+
+#dark-mode {
+  position: static;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 /*--------------------------------------------------------------HEADER--------------------------------------------------*/

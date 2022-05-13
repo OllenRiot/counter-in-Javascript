@@ -31,14 +31,20 @@ $thicker-border-line:2px solid $border-menu-color;
 
 /*------------------------------------------------------------GENERAL CHANGES------------------------------------------*/
 .panel,
+.hidden-inline,
 .hidden,
-.hidden-inline{
+#sun-icon{
     display: none;
 }
 
 .show,
-.panel-open{
+.panel-open,
+#moon-icon{
     display: block;
+}
+
+.show-inline{
+    display: inline;
 }
 
 .panel li{
@@ -100,6 +106,7 @@ section .section-content ul{
     padding:10px 0;
 }
 
+/*--------------------------------------------------------------DARK-MODE + RETURNBACK--------------------------------------------------*/
 #return-back-container{
     font-size: $biggest-font-size;
     position: fixed;
@@ -119,9 +126,31 @@ section .section-content ul{
     color:$complementary-color;
 }
 
+#dark-mode{
+    position:fixed;
+    left:3%;
+    bottom:1%;
+}
+
+#dark-mode .icon{
+    font-size: $biggest-font-size;
+}
+
+#dark-mode .icon:hover{
+    color: $main-color;
+}
+
+#dark-mode .icon:active{
+    color: $complementary-color;
+}
+
 @media only screen and (min-height:500px) and (max-height:800px){
     #return-back{
         bottom:10%;
+    }
+
+    #dark-mode{
+        bottom:5%;
     }
 }
 
@@ -136,7 +165,7 @@ section .section-content ul{
 #header .img-content{
     float: left;
     display:flex;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 #header .img-content .img-container{
@@ -146,7 +175,6 @@ section .section-content ul{
 #header .img-content .img-container{
     font-size: $h1-font-size;
 }
-
 
 /*Header Label + Imput*/
 #menu-btn{

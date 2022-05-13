@@ -14,6 +14,10 @@ let counterModify = document.getElementById('counter-modify');
 let counterName = document.getElementById('counter-name');
 let changeNameIcon = document.querySelector('#main-content header button .hidden-inline');
 
+let content = document.getElementById('content');
+let sunIcon = document.getElementById('sun-icon');
+let moonIcon = document.getElementById('moon-icon');
+
 //Variables linked with DOM with multi-values[object]
 let panels = document.getElementsByClassName('panel');
 let dropBtns = document.getElementsByClassName('drop-btn');
@@ -36,6 +40,21 @@ let confirmReset;
 
 
 //---------------------------------------------------------------------------------------MAIN CODE-------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------------Dark-mode----------------------------------------------------
+moonIcon.onclick = function(){
+    content.classList.add('inverted');
+
+    sunIcon.style.display = 'block';
+    moonIcon.style.display = 'none';
+}
+
+sunIcon.onclick = function(){
+    content.classList.remove('inverted');
+
+    sunIcon.style.display = 'none';
+    moonIcon.style.display = 'block';
+}
+
 //-------------------------------------------------------------------------------------Counter------------------------------------------------------------------------------
 counter.onclick = function(e){
     if(e.target == minus){
