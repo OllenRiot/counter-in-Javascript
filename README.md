@@ -8,7 +8,7 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 
 - Presenza della ***Dark-mode***
 
-- Possibilità di **facilitare alcune operazioni** grazie alla presenza di alcuni **tasti rapidi**
+- Possibilità di **facilitare alcune operazioni** grazie alla presenza di alcuni **tasti rapidi** (solo su pc)
 
 - ***Design responsive*** in base al dispositivo
 
