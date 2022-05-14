@@ -12,7 +12,7 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 
 - ***Design responsive*** in base al dispositivo
 
-*Questi sono solo alcuni delle varie proprietà del sito. Per saperne di più, **clicca** [qui](code).*
+*Questi sono solo alcuni delle varie proprietà del sito. Per saperne di più, **clicca** [qui](index.html).*
 
 
 
