@@ -12,7 +12,7 @@ Inoltre ,se questo non bastasse, il sito presenta anche **altre qualità e carat
 
 - ***Design responsive*** in base al dispositivo
 
-*Questi sono solo alcuni delle varie proprietà del sito. Per saperne di più, **clicca** [qui](https://ollenriot.github.io/counter-in-Javascript/).*
+*Queste sono solo alcune delle varie proprietà del sito. Per saperne di più, **clicca** [qui](https://ollenriot.github.io/counter-in-Javascript/).*
 
 
 
