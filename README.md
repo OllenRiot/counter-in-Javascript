@@ -30,7 +30,8 @@ Ringrazio per la **realizzazione del sito** tutte le **risorse che hanno contrib
 Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **parole chiave** sotto evidenziate per andare direttamente alle varie pagine web.
 ### LOGO E ICONE 
 - [Flaticon](https://www.flaticon.com/)
-- [Font Awersome](https://fontawesome.com/) 
+- [Font Awersome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/) 
 ### IDEA DEL PROGETTO
 - [Start2impact](https://www.start2impact.it/)
 
