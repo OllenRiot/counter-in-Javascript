@@ -13,7 +13,7 @@ $colored-section-color:white;
 
 //Dimensions//
 $number-font-size: 7rem;
-$modifiers-font-size:6rem;
+$modifiers-font-size:10rem;
 $biggest-font-size:3.5rem;
 $h1-font-size:2.3rem;
 $great-font-size: 2rem;
@@ -126,6 +126,10 @@ $thicker-border-line:2px solid $border-menu-color;
 
 #number{
     font-size: $number-font-size;
+}
+
+#main-content header .title{
+    font-size: $biggest-font-size;
 }
 
 

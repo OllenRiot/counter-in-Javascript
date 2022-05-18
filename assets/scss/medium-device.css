@@ -48,11 +48,15 @@
 }
 
 #main-content .counter-container .icons-container .icon {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 #number {
   font-size: 6rem;
+}
+
+#main-content header .title {
+  font-size: 3rem;
 }
 
 /*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
@@ -68,6 +72,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#thanks .thanks-list ul {
+  padding: 10 15px;
 }
 
 /*----------------------------------------CONTACT----------------------------------*/

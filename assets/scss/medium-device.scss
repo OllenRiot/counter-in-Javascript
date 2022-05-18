@@ -2,7 +2,7 @@
 
 //Dimensions//
 $number-font-size: 6rem;
-$modifiers-font-size:5rem;
+$modifiers-font-size:7rem;
 $biggest-font-size:3rem;
 $h1-font-size:2.2rem;
 $great-font-size: 1.9rem;
@@ -74,6 +74,10 @@ $small-font-size:0.9rem;
     font-size: $number-font-size;
 }
 
+#main-content header .title{
+    font-size: $biggest-font-size;
+}
+
 
 
 /*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/
@@ -85,6 +89,10 @@ $small-font-size:0.9rem;
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+#thanks .thanks-list ul{
+    padding: 10 15px;
 }
 
 

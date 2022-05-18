@@ -13,7 +13,7 @@ $colored-section-color:white;
 
 //Dimensions//
 $number-font-size: 5rem;
-$modifiers-font-size:4rem;
+$modifiers-font-size:6rem;
 $biggest-font-size:2.5rem;
 $h1-font-size:2rem;
 $great-font-size: 1.75rem;
@@ -73,7 +73,8 @@ $thicker-border-line:2px solid $border-menu-color;
 }
 
 .icons-container svg,
-.icons-container i{
+.icons-container i,
+.icons-container .icon{
     cursor: pointer;
 }
 
@@ -351,6 +352,9 @@ section .section-content ul{
 
 #main-content .counter-container .icons-container{
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-top: 30px;
 }
 

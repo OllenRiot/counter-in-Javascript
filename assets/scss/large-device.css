@@ -98,11 +98,15 @@
 }
 
 #main-content .counter-container .icons-container .icon {
-  font-size: 6rem;
+  font-size: 10rem;
 }
 
 #number {
   font-size: 7rem;
+}
+
+#main-content header .title {
+  font-size: 3.5rem;
 }
 
 /*----------------------------------------------------------------------------THANKS-------------------------------------------------------------------------------*/

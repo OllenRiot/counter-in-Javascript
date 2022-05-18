@@ -42,7 +42,8 @@
 }
 
 .icons-container svg,
-.icons-container i {
+.icons-container i,
+.icons-container .icon {
   cursor: pointer;
 }
 
@@ -328,11 +329,21 @@ section .section-content ul {
 
 #main-content .counter-container .icons-container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 30px;
 }
 
 #main-content .counter-container .icons-container .icon {
-  font-size: 4rem;
+  font-size: 6rem;
   width: 40%;
   margin: 0;
 }

@@ -1,10 +1,7 @@
 //VARIABLES
 
 //Variables linked with DOM with a single value
-let number = document.getElementById('number');
-let minus = document.getElementById('minus');
-let plus = document.getElementById('plus');
-let counter = document.getElementById('counter');
+let mainContent = document.getElementById('main-content');
 
 let counterSet = document.getElementById('counter-set');
 let counterAdd = document.getElementById('counter-add');
@@ -31,6 +28,12 @@ let counterValue = 0;
 let counterNameDefault = 'Contatore';
 
 //Variables without a value
+let counterContainer;
+let counter;
+let number;
+let minus;
+let plus;
+
 let addToTotal;
 let modifierChanged;
 let counterValueChanged;
@@ -40,6 +43,41 @@ let confirmReset;
 
 
 //---------------------------------------------------------------------------------------MAIN CODE-------------------------------------------------------------------
+//----------------------------------------------------------------------------------------Creation of the counter and of his Options--------------------------------------
+
+//Counter-Container
+counterContainer = document.createElement('div');
+counterContainer.classList.add('counter-container');
+mainContent.firstElementChild.after(counterContainer);
+
+//Number
+number = document.createElement('span');
+number.textContent = '0';
+number.id = 'number';
+counterContainer.prepend(number);
+
+//Counter
+counter = document.createElement('div');
+counter.id = 'counter';
+counter.classList.add('icons-container');
+number.after(counter);
+
+//Minus and Plus
+minus = document.createElement('span');
+plus = document.createElement('span');
+
+minus.textContent = '-';
+plus.textContent = '+';
+
+minus.classList.add('icon');
+plus.classList.add('icon');
+
+counter.prepend(minus);
+counter.append(plus);
+
+
+
+//---------------------------------------------------------------------------------------EVENTS-----------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------------Dark-mode----------------------------------------------------
 moonIcon.onclick = function(){
     content.classList.add('inverted');
