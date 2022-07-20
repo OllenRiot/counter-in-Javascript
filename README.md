@@ -32,8 +32,6 @@ Per usufruire di tali risorse non vi basta far altro che **cliccare** alle **par
 - [Flaticon](https://www.flaticon.com/)
 - [Font Awersome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/) 
-### IDEA DEL PROGETTO
-- [Start2impact](https://www.start2impact.it/)
 
 ## ![Logo](assets/img/readme-img/info-mini.png)  Autore
 
